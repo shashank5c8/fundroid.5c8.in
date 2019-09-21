@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Delete page</title>
+    <style>
+        body{font-family: cursive;background-color: #f5f5f5}
+        div{width: 500px;box-shadow: 0px 1px 10px #a8a8a8; position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-color: #fff;padding-bottom: 10px}
+        h1{background-color: #e63030;text-align: center;margin-top: 0;padding: 20px;color: #fff}
+        input{display: block; margin:auto; font-size: 20px}
+        p{text-align: center;font-size: 20px;color: #777}
+        input{width: 70%;border: 1px solid #454544;background-color: #fff;outline: none;border-radius: 5px;height:40px;padding: 10px}
+        input[type="submit"]:hover{background-color: #c63f3f;border: 0}
+        input[type="submit"]{background-color: #454544;color: #fff;cursor: pointer}
+        a{padding: 5px; border-radius: 3px; background-color: #c0eb30;text-decoration: none;display: inline-block;color: #000;}
+        a:hover{color: #fff; background-color: #4cce56;transition: all 0.3s}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Delete Profile</h1>
+        <form action="./delete">
+            <p>Enter email address</p>
+            <input type="text" name="email"><br>
+            <input type="submit" value="Delete">
+            <p><a href="index.html">Home</a></p>
+        </form>
+    </div>
+</body>
+</html>
